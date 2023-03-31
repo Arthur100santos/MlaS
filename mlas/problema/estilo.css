@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+@media (max-widt: 700px) {
+    .nav{
+       flex-direction: column;
+       align-items: unset;
+    }
+    ul{
+       text-align: center;
+    }
+    .nav{
+       padding-top: 20px;
+    }
+}
+
+.logo{
+    font-family: 'Luxurious Roman';
+}
+
+.nav{
+    background-color: #0F1C54;
+    font-family: 'Roboto';
+    color: #fff;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1, a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+li{
+    padding: 10px;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Luxurious Roman';
+}
+
+
+
+li:hover,  
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color:  #9ca4c4; 
+}
+
+@media (max-widt: 700px) {
+     .nav{
+        flex-direction: column;
+        align-items: unset;
+     }
+     ul{
+        text-align: center;
+     }
+     .nav{
+        padding-top: 20px;
+     }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    color: aliceblue;
+    background-color: #0F1C54;
+}
+
+#area-solucao{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, h4{
+    text-align: center;
+}
+
+#area-cabecalho{
+    padding: 0.9rem;
+    background-color: #0F1C54;
+    text-align: center;
+   
+}
+
+area-menu:hover,  
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color:  #9ca4c4; 
+}
+
+#area-logo, #area-menu{
+    padding: 0.7em;
+
+}
+
+.area-menu:hover{
+    cursor: pointer;
+    opacity: 0 8;
+    background-color: #9ca4c4;
+}
+
+#area-menu a{
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#area-menu a:link, #area-menu a:visited{
+    color: #ffff;
+    padding: 8px 12px;
+}
+
+
+
+footer {
+    background-color: #0F1C54;
+    color: #fff;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.secao{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+
+
+.bloco-texto1{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.bloco-texto2{
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
+/* Main */
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0F1C54;
+    font-family: 'Roboto';
+    color: #fff;
+    text-align: center;
+}
+
+
+
+main {
+    background-color: #9ca4c4;
+    font-family: 'Roboto';
+    height: 100vh;
+}
+
+
+#secao{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+main article .postagem-titulo-problema{
+    margin: 20px;
+    
+    
+}
+
+/* .texto1{
+    width: 40px;
+    background-color: #ffffff;
+} */
+
+/* MODAL */
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#myBtn{
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 39px;
+    height: 40px;
+    width: 20rem;
+    background-color: #0F1C54;
+    color: antiquewhite;
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
